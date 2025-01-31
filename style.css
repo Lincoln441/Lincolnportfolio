@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    background-color: #373333c7;
+}
+header{
+    background: #0f4264;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+section{
+    padding: 20px;
+    margin: 20px 0;
+    max-width:1000px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home,#about, #projects, #contact{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #0f4264;
+    color: white;
+    text-align: center;
+    padding: 1px 0 ;
+}
+button{
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.25s;
+    padding: 8px;
+}
+button:hover{
+    background-color:  #435a6c;
+    box-shadow: 0 8px 9px rgba(0, 0, 0, 0.3 )
+}
+button:active{
+    opacity: 0.5;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    margin: 10px 0 5px;
+}
+form input, form textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
